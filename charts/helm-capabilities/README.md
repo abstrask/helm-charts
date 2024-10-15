@@ -15,8 +15,17 @@ As I haven't found an easy way to simply output these using the Helm command dir
 
 ## Usage
 
-TBD.
+```bash
+# Bare-bones example
+helm template --repo https://abstrask.github.io/helm-charts helm-capabilities
 
+# Override the built-in Kubernetes version
+helm template --repo https://abstrask.github.io/helm-charts helm-capabilities --kube-version 1.20 | yq '.helmCapabilities.kubeVersion'
+
+# Add avaialble API version to those built-in
+helm template --repo https://abstrask.github.io/helm-charts helm-capabilities --api-versions myapi/v0 | yq '.helmCapabilities.apiVersions[] | select(. == "myapi/v0")'
+
+```
 ## Example Output
 
 ```yaml
