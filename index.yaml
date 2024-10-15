@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  helm-capabilities:
+  - apiVersion: v2
+    created: "2024-10-15T09:20:26.44019217Z"
+    description: Show the capabilities available to Helm (https://helm.sh/docs/chart_template_guide/builtin_objects/)
+    digest: 320d964ab0ffbea0cfb3eecefaf03175e67a7a04ca71f350e3d38e2270012f31
+    name: helm-capabilities
+    type: application
+    urls:
+    - https://github.com/abstrask/helm-charts/releases/download/helm-capabilities-1.0.0/helm-capabilities-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-10-15T09:20:26.440198261Z"
