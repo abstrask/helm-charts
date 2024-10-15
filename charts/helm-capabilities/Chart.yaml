@@ -1,0 +1,5 @@
+apiVersion: v2
+name: helm-capabilities
+description: Show the capabilities available to Helm (https://helm.sh/docs/chart_template_guide/builtin_objects/)
+type: application
+version: 1.0.0

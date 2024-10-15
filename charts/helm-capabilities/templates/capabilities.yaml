@@ -1,0 +1,7 @@
+helmCapabilities:
+  apiVersions:
+  {{- range .Capabilities.APIVersions }}
+    - {{ . }}
+  {{- end }}
+  helmVersion: {{ .Capabilities.HelmVersion.Version }}
+  kubeVersion: {{ .Capabilities.KubeVersion }}
