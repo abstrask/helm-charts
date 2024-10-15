@@ -11,7 +11,7 @@ These are often used by charts to make decisions about what API version a given 
 
 These capabilities are normally read when installing the chart (`helm install`). When dry-running charts (`helm template`), the Kubernetes version included in the Helm command is used, along the built-in API versions of that Kubernetes version.
 
-As I haven't found an easy way to simply output these using the Helm command directly, I made this chart that simply outputs the capaibilties when used with the `helm template` command.
+As I haven't found an easy way to output these using the Helm command directly, I made this chart that simply outputs the capabilities when used with the `helm template` command.
 
 ## Usage
 
