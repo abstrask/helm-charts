@@ -3,7 +3,7 @@
 > [!TIP]
 > This chart is not meant to, and cannot, be installed in Kubernetes.
 >
-> It's meant to use with the `template` command only, to show the capabilties available to Helm.
+> It's meant to use with the `template` command only, to show the capabilities available to Helm.
 
 Produces a YAML document showing the Kubernetes and API versions available to Helm.
 
